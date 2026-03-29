@@ -24,7 +24,7 @@ const organizationSchema = {
   },
   sameAs: [
     'https://instagram.com/vendo365',
-    'https://wa.me/573001234567',
+    'https://wa.me/573013969321',
   ],
 }
 

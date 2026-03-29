@@ -1,5 +1,5 @@
 export const SITE_CONFIG = {
-  waNumber: '573001234567',
+  waNumber: '573013969321',
   waMessage: 'Hola, quiero crear mi sitio web con Vendo365',
   email: 'hola@vendo365.com',
   instagram: 'https://instagram.com/vendo365',
@@ -179,7 +179,7 @@ export const FOOTER_LINKS = {
   ],
   Contacto: [
     { label: 'hola@vendo365.com', href: 'mailto:hola@vendo365.com' },
-    { label: 'WhatsApp directo', href: `https://wa.me/573001234567` },
+    { label: 'WhatsApp directo', href: `https://wa.me/573013969321` },
     { label: 'Instagram', href: 'https://instagram.com/vendo365' },
   ],
 }

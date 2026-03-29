@@ -16,7 +16,7 @@
   "language": "Español",
   "url": "https://vendo365.com",
   "contact": {
-    "whatsapp": "+573001234567",
+    "whatsapp": "+573013969321",
     "email": "hola@vendo365.com",
     "instagram": "@vendo365"
   },
