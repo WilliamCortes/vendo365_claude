@@ -5,6 +5,7 @@ import HowItWorks from '@/components/sections/HowItWorks'
 import Features   from '@/components/sections/Features'
 import Evidence   from '@/components/sections/Evidence'
 import Pricing    from '@/components/sections/Pricing'
+import Faq        from '@/components/sections/Faq'
 import CtaClose   from '@/components/sections/CtaClose'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Features />
       <Evidence />
       <Pricing />
+      <Faq />
       <CtaClose />
     </>
   )

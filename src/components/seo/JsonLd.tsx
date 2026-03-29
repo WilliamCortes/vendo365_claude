@@ -116,66 +116,98 @@ const faqSchema = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: '¿Cómo creo mi sitio web con Vendo365?',
+      name: '¿Cuánto tiempo tarda en crearse mi sitio web con Vendo365?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Solo necesitas WhatsApp. Nuestro bot te hace preguntas simples sobre tu negocio — nombre, servicios, colores, fotos — y la IA genera tu sitio web completo en minutos. Sin instalar nada, sin saber de tecnología.',
+        text: 'Menos de 10 minutos desde el primer mensaje por WhatsApp. Respondes unas preguntas simples sobre tu negocio, la IA genera tu sitio completo con textos, SEO y estructura, y recibes el link listo para compartir. Sin esperas, sin formularios largos, sin reuniones.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Cuánto cuesta Vendo365?',
+      name: '¿Necesito saber de tecnología o diseño para usar Vendo365?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Vendo365 tiene un plan gratuito (COP 0/mes) con landing básica y subdominio .vendo365.com. El plan Emprendedor cuesta COP 24.900/mes e incluye SEO completo y hasta 10 productos. El plan Negocio cuesta COP 49.900/mes con hasta 50 productos y pagos online.',
+        text: 'No. Si sabes usar WhatsApp, puedes crear tu sitio con Vendo365. No necesitas instalar ningún programa, no necesitas saber HTML, CSS ni diseño. La inteligencia artificial hace todo el trabajo técnico por ti.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Necesito saber de tecnología para usar Vendo365?',
+      name: '¿Mi sitio web va a aparecer en Google?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Si sabes usar WhatsApp, puedes crear tu sitio con Vendo365. No necesitas instalar ningún programa, no necesitas saber diseño ni programación. La IA hace todo el trabajo técnico por ti.',
+        text: 'Sí. Vendo365 genera automáticamente todo el SEO técnico que Google necesita: meta tags, sitemap XML, datos estructurados (schema.org), Open Graph y descripciones optimizadas. Don Alfonso Alvira, terapeuta de Villavicencio, aparece en los primeros resultados de Google desde alfonsoalvira.vendo365.com.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Mi sitio aparecerá en Google?',
+      name: '¿Qué incluye el plan gratuito de Vendo365?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Sí. Vendo365 genera automáticamente los meta tags, el sitemap, el schema.org y toda la estructura técnica de SEO que Google necesita para indexar tu sitio. Tus clientes te podrán encontrar en Google desde el primer día.',
+        text: 'El plan gratuito incluye una landing page profesional, un subdominio propio (tuNegocio.vendo365.com) y SEO básico. No requiere tarjeta de crédito. La diferencia con los planes de pago es que aparece la marca Vendo365 en el sitio y no incluye tienda online.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Puedo vender productos online con Vendo365?',
+      name: '¿Puedo vender productos online desde Colombia con Vendo365?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Sí. Los planes Emprendedor y Negocio incluyen tienda online con catálogo de productos. El plan Negocio además incluye integración con Wompi para recibir pagos con tarjeta de crédito, débito y PSE.',
+        text: 'Sí. Los planes Emprendedor y Negocio incluyen tienda online. El plan Negocio añade pago online integrado con Wompi (Bancolombia), que acepta tarjetas de crédito, débito, PSE y Nequi.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Vendo365 funciona para negocios en Colombia?',
+      name: '¿Qué es Wompi y por qué lo usan?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Vendo365 está diseñado específicamente para el mercado colombiano y latinoamericano. Incluye integración con Wompi (el procesador de pagos más usado en Colombia), WhatsApp Business, y contenido optimizado para el contexto local.',
+        text: 'Wompi es la pasarela de pagos de Bancolombia, la más usada y confiable en Colombia. Permite recibir pagos con tarjeta de crédito, débito, PSE y Nequi sin costos de conversión de divisas. Es el estándar para e-commerce en Colombia.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Qué es un subdominio .vendo365.com?',
+      name: '¿Puedo usar mi propio dominio .com o .co con Vendo365?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Es tu dirección en internet. Por ejemplo: tuNegocio.vendo365.com. Es gratuito y está disponible en segundos. Si quieres tu propio dominio (tuNegocio.com), puedes contratarlo en el plan Pro.',
+        text: 'Sí. En el plan Pro puedes conectar tu dominio propio (tunegocio.com o tunegocio.co). Los planes anteriores incluyen un subdominio gratuito en tuNegocio.vendo365.com, que funciona perfectamente para Google.',
       },
     },
     {
       '@type': 'Question',
-      name: '¿Tienen un caso de éxito real?',
+      name: '¿En qué se diferencia Vendo365 de Wix o WordPress?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Sí. Don Alfonso Alvira, terapeuta especialista en columna de Villavicencio con 43 años de experiencia, nunca había tenido sitio web. Con Vendo365 creó alfonsoalvira.vendo365.com en menos de 10 minutos por WhatsApp y hoy aparece en Google.',
+        text: 'Vendo365 crea el sitio por ti respondiendo preguntas en WhatsApp, sin abrir el computador. Wix y WordPress requieren que diseñes el sitio desde cero. Además, Vendo365 tiene integración con Wompi, está en español colombiano y cuesta desde COP 0, mientras Wix cobra desde USD 17/mes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Vendo365 sirve para médicos, terapeutas y profesionales de salud en Colombia?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Sí. El primer cliente es Don Alfonso Alvira, terapeuta especialista en columna de Villavicencio con 43 años de experiencia. El sistema genera automáticamente el schema.org correcto para profesionales de salud (MedicalBusiness), mejorando el posicionamiento en búsquedas locales.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿En qué ciudades de Colombia funciona Vendo365?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'En toda Colombia: Bogotá, Medellín, Cali, Barranquilla, Villavicencio, Pasto, Bucaramanga, Manizales, Pereira, Cartagena, Cúcuta, Ibagué y ciudades intermedias. También disponible en México, Perú, Ecuador y el resto de Latinoamérica.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Puedo cancelar mi plan de Vendo365 en cualquier momento?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Sí, sin cargos por cancelación. Puedes cancelar desde tu perfil o escribiendo a hola@vendo365.com. No hay permanencia mínima. Los usuarios nuevos de plan pago tienen derecho a retracto dentro de los 5 días hábiles, conforme a la Ley 1480 de 2011.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Los textos de mi sitio los escribe la IA o tengo que escribirlos yo?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'La IA los escribe todos. GPT-4 genera los textos del sitio, títulos SEO, meta descriptions y datos estructurados a partir de tus respuestas por WhatsApp. Son textos únicos en español colombiano, optimizados para buscadores.',
       },
     },
   ],
